@@ -1,0 +1,34 @@
+{
+  "name": "viewjson-escape",
+  "version": "0.0.1",
+  "description": "viewjson escape plugin",
+  "author": {
+    "name": "Vasya Aksyonov",
+    "email": "outring@gmail.com"
+  },
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/outring/viewjson-escape.git"
+  },
+  "keywords": [
+    "json",
+    "html",
+    "template",
+    "viewjson"
+  ],
+  "dependencies": {
+    "lodash.defaults": "^2.4.1",
+    "lodash.escape": "^2.4.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "viewjson": "0.0.2"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node tests/"
+  }
+}
